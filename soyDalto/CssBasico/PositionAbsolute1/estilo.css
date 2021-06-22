@@ -1,0 +1,61 @@
+* {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+div {
+    width: 160px;
+    height: 160px;
+    display: block;
+    background-color: yellow;
+}
+
+
+/*ABSOLUTE
+el elemento que le sigue se desplaza y toma su lugar que ya no esta reservado*/
+
+
+/*el elemento que le sigue desaparece por debajo del elemento que tiene el absolute*/
+
+
+/*el punto de referencia pasa a ser el contenedor o el viewport,
+no es el limite con el proximo elemento, sino se expande y llega al limite del
+contenedor o del viewport*/
+
+
+/*top 0 me lo sube al borde superior top y left toman como referencia el viewport*/
+
+
+/*si no le pongo nada(top ni left) el punto de referencia, hasta donde me lo desplaza, es la caja contenedora*/
+
+
+/*si le pongo top o left el punto de referencia es a partir del viewport*/
+
+.contenedor {
+    margin: 100px;
+}
+
+.caja1 {
+    background-color: orange;
+}
+
+.caja2 {
+    background-color: green;
+    position: absolute;
+    opacity: .5;
+    top: 10px;
+    left: 20px;
+}
+
+.caja3 {
+    background-color: lightblue;
+}
+
+
+/*el position absolute hace que el fondo se ajuste al tamaño del contenido*/
+
+.caja4 {
+    position: absolute;
+    background-color: blue;
+}

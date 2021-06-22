@@ -1,0 +1,26 @@
+* {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+
+/*FIXED queda fijado el bloque y no se mueve por mas que haga scroll
+se ajusta al tamaño del contenido*/
+
+.fixed {
+    background: red;
+    position: fixed;
+    top: 20px;
+    /* margin: 100px; */
+}
+
+
+/*le doy ma padding de arriba asi no el fixed no tapa al texto*/
+
+body {
+    padding-top: 200px;
+}
+
+
+/*podriamos crear una barra de navegacion fija arriba*/

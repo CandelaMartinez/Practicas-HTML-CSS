@@ -1,0 +1,74 @@
+* {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+
+/* cambiamos el comportamiento de las cajas */
+
+
+/* el h2 se va a comportar como elemento en linea y no como bloque */
+
+
+/* no va a ocupar mas el ancho de la pantalla sino lo que ocupe el contenido */
+
+
+/* h2 {
+    display: inline;
+} */
+
+
+/*a los elementos inline no se les puede dar height ni width*/
+
+
+/*propiedades de caja*/
+
+
+/*inline-block se comporta como un elemento en linea pero puede adquirir las propiedades de uno en bloque*/
+
+
+/*padding: distancia entre el texto y los bordes internos de la caja*/
+
+
+/*margin es la distancia que hay entre los elementos, del borde externo hacia afuera*/
+
+
+/*content*/
+
+
+/*border*/
+
+h2 {
+    /* background-color: aquamarine; */
+    display: inline-block;
+    /* padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px; */
+    /* padding: 30px; o sino a todos sus lados */
+    /* padding: 20px 30px ;  primero top y botton*/
+    /* padding: 10px 20px 30px 40px; top right bottom left */
+    /* height: 100px;
+    width: 300px; */
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    margin: -10px;
+    /* border-radius: 50%; redondearlo */
+    /* border-radius: 10px; */
+    /* border: 10px solid blue; ancho /tipo de borde /color */
+    /* line-height: normal; modificamos el content, tamaño de la linea */
+    /* box-shadow:  2px 4px 4px 10px blue; ejex ejey desenfoque borde color */
+    /* text-shadow: 2px 2px 7px red; ejex ejey desenfoque color */
+    /* text-shadow: 2px 2px 7px red, 2px 2px 7px red; , y vuelvo a pegar se hace mas intenso */
+    transform: rotate(-45deg);
+}
+
+
+/*
+content line-height
+padding padding
+border border (por fuera del padding)
+magin margin(por fuera del border)
+*/

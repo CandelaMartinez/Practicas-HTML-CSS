@@ -1,0 +1,47 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+
+/* display block hace que ocupen toda la linea */
+
+div {
+    width: 120px;
+    height: 120px;
+    display: block;
+    background: yellow;
+}
+
+.caja1 {
+    background-color: brown;
+}
+
+.caja2 {
+    background-color: rgb(224, 26, 191);
+}
+
+.caja3 {
+    background-color: rgb(49, 191, 235);
+}
+
+.caja4 {
+    background-color: rgb(247, 243, 14);
+}
+
+
+/*al posicionar un objeto este adquiere nuevas propiedades:
+top, right, bottom, left, z-index*/
+
+
+/*position:
+static, valor por defecto: no esta posicionado, sin propiedades
+relative:
+absolute:
+fixed:
+sticky:
+*/
+
+
+/*afecta el flujo html, el orden en que pongo los elementos*/

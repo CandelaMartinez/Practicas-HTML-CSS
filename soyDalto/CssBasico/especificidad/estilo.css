@@ -1,0 +1,59 @@
+/* cambiar las propiedades sin modificar el resto de cosas que no quiero */
+
+
+/*jerarquias*/
+
+
+/*-1
+!important
+-2
+estilos en linea
+-3
+identificadores
+-4
+clases
+pseudo clases
+atributos
+-5
+elementos
+pseudo elementos
+ */
+
+
+/* si estan en el mismo nivel de jerarquia no entran en conflicto y se hace por cascada
+el que venga ultimo es el que se aplica */
+
+
+/*elemento*/
+
+h1 {
+    color: brown;
+}
+
+
+/*clase le gana a elemento*/
+
+.blue {
+    color: blue;
+}
+
+
+/*por elemento*/
+
+h2 {
+    color: cornflowerblue;
+}
+
+
+/*por id gana a por elemento*/
+
+#green {
+    color: chartreuse;
+}
+
+
+/*el important le gana a todo de todo*/
+
+h2 {
+    color: deeppink !important;
+}

@@ -1,0 +1,17 @@
+* {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+
+/*STICKY queda fijado el bloque  en el punto en el que 
+le digo: top  y no se mueve por mas que haga scroll
+se ajusta al tamaño del contenido*/
+
+.fixed {
+    background: red;
+    position: sticky;
+    top: 50px;
+    margin-top: 100px;
+}

@@ -1,0 +1,11 @@
+.formulario__input {
+    color: brown;
+}
+
+.formulario__input:first-child {
+    color: blue;
+}
+
+.formulario__input--especial {
+    color: chartreuse;
+}

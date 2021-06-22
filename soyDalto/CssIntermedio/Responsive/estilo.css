@@ -1,0 +1,34 @@
+         * {
+             font-size: 20px;
+             font-family: 'Montserrat', sans-serif;
+             font-weight: 100;
+         }
+         
+         div {
+             width: 45%;
+             display: inline-block;
+             padding: 20px;
+             background-color: #ddd;
+         }
+         
+         .caja2 {
+             background-color: #bbb;
+         }
+         
+         @media only screen and (max-width:800px) {
+             div {
+                 display: block;
+                 width: 100%;
+             }
+             h1 {
+                 font-size: 20px !important;
+             }
+         }
+         /*@media detecta una resolucion y cambia las etiquetas
+         para que los elementos se adapten al mobil
+         cuando la pantalla adquiera resoluciones menores de 800px vamos 
+         a hacer lo que este entre{}
+         al div le damos un display block, empiezan a estar un elemento bajo otro 
+         y no uno allado del otro
+         y un width del 100%, abarca toda la pantalla*/
+         /*hay que agregarle la etiqueta meta viewport*/

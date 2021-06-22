@@ -1,0 +1,47 @@
+ * {
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 100;
+ }
+ /*el bloque rojo va a la derecha y el amarillo a la izquiera
+ aqui ponemos float a los dos divs, pero como ocupan el 50%
+ del ancho entonces se van alineando una allado del otro*/
+ 
+ .contenedor div {
+     /* width: 50%; */
+     float: right;
+ }
+ /*el bloque rojo pasa a la derecha allado del bloque amarillo que se queda en la izq*/
+ 
+ .primario {
+     background: red;
+     width: 60%;
+     padding: 25px;
+     /* float: right; */
+ }
+ /*el float right hace que el bloque amarillo vaya a la derecha y se quede abajo*/
+ 
+ .secundario {
+     background: yellow;
+     width: 40%;
+     /* float: right; */
+ }
+ 
+ .cont {
+     margin: auto;
+     margin-top: 50px;
+     width: 300px;
+     height: 250px;
+     border: 4px solid red;
+     background-color: grey;
+     overflow-y: scroll;
+     overflow-x: hidden;
+ }
+ 
+ .cont img {
+     width: 1000px;
+     position: relative;
+     top: 50px;
+     left: 260px;
+     outline: 2px solid blue;
+ }

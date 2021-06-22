@@ -1,0 +1,75 @@
+/* selectores: universal/de tipo/clases/ID/por atributo/descendiente/pseudoclases */
+
+
+/* UNIVERSAL * selecciona todo*/
+
+* {
+    color: red;
+}
+
+
+/*DE TIPO: seleccionamos por elemento: button h1 h2*/
+
+h1 {
+    color: blue;
+}
+
+button {
+    color: blueviolet;
+}
+
+
+/*CLASES: creo una clase en css y se la asigno al elemento html como un atributo. la puedo usar en muchos elementos*/
+
+.coral {
+    color: coral;
+}
+
+
+/*ID: pongo un identificador a un elemento y lo llamo desde css. solo se puede usar una vez */
+
+#parrafo1 {
+    color: chartreuse;
+}
+
+
+/*POR ATRIBUTO: dentro de html creo un atributo dentro de la etiqueta */
+
+[rancio="si"] {
+    color: darkgreen;
+}
+
+
+/*DESCENCIENTE: seleccione los p que estan dentro de un h2  */
+
+h2 p {
+    color: yellow;
+}
+
+
+/*seleccionamos a los b que esten dentro de un elemento que tenga la clase coral*/
+
+.coral b {
+    color: aquamarine;
+}
+
+
+/*seleccionamos los span que esten dentro de un b que este dentro de un elemento que tenga la clase coral*/
+
+.coral b span {
+    color: darkblue;
+}
+
+
+/* PSEUDOCLASE: en un evento se genera una seleccion*/
+
+
+/*cuando pase el raton por el elemento b este se agrande*/
+
+b:hover {
+    color: black;
+}
+
+.coral b span:hover {
+    color: cornflowerblue;
+}

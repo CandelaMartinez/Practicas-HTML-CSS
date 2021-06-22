@@ -1,0 +1,31 @@
+         * {
+             font-size: 20px;
+             font-family: 'Montserrat', sans-serif;
+             font-weight: 100;
+         }
+         
+         div {
+             height: 300px;
+             width: 300px;
+             /* background-color: palevioletred; */
+             /* background-color: rgb(100, 50, 50); */
+             /* background-color: rgba(255, 255, 0, .8); */
+             background-color: #48e;
+             border: 5px solid blue;
+             margin: 50px auto;
+             cursor: pointer;
+         }
+         
+         div:active {
+             cursor: crosshair;
+         }
+         /*por el nombre del color, el navegador elige la gama del color que le decimos*/
+         /*RGB: red green blue. aqui se respeta el color,
+        de 0 a 255, 0 0 0 es negro, 255 255 255 es blanco, 255 0 0 es rojo
+        0 255 0 es green, 0 0 255 es blue, verde y rojo da amarillo, 
+        gris es la escala de todos iguales */
+         /*RGBA: es lo mismo que rgb pero con alfa, el agregado de transparencia*/
+         /*Hexadecimal: 16 unidades, 10 numeros y hasta f. f es el valor maximo
+         podemos poner o 3 o 6 unidades
+         #ff(red)ff(green)ff(blue)ff(alpha)*/
+         /*html color picker*/

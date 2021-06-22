@@ -1,0 +1,90 @@
+ * {
+     font-size: 20px;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 100;
+ }
+ 
+ .caja1 {
+     height: 200px;
+     width: 200px;
+     background: slateblue;
+     transition: background .4s, height .5s, width 1s;
+     /* transition: all .5s ; */
+     /* transition: all 1s border .5s; */
+     border: 3px solid red;
+ }
+ 
+ .caja1:hover {
+     background: darkslateblue;
+     height: 300px;
+     width: 300px;
+     border: 5px solid blue;
+ }
+ 
+ button {
+     padding: 20px;
+     background-color: darkblue;
+     transition: background .12s;
+     color: beige;
+ }
+ 
+ button:hover {
+     padding: 20px;
+     background-color: slateblue;
+     color: black;
+ }
+ 
+ .enlace {
+     background-color: blue;
+ }
+ 
+ .enlace:link {
+     color: crimson;
+ }
+ 
+ a:visited {
+     color: darkgreen;
+     background-color: burlywood;
+ }
+ 
+ .caja2 {
+     width: 300px;
+     height: 300px;
+     background-color: brown;
+     margin: 60px;
+     transition: all 1s;
+ }
+ 
+ .caja2:active {
+     background-color: blueviolet;
+     width: 600px;
+ }
+ 
+ .input {
+     margin: 40px;
+     transition: all 1s;
+     background-color: gray;
+ }
+ 
+ .input:focus {
+     background-color: whitesmoke;
+     padding: 20px;
+ }
+ 
+ .caja3 {
+     margin: 30px;
+ }
+ 
+ b:lang(en) {
+     background-color: chartreuse;
+ }
+ /*se aplica a un elemento, escuchar un evento*/
+ /*hover: escucha el evento cuando esta el raton encima
+link: cambiar un link que aun no visitamos. visito la pagina y pudo acceder.
+visited:cambia el estilo de los que ya estan visitados, elemento inline
+active: al dejar apretado un boton sobre el elemento le aplica los cambios los estilos
+focus: se aplica a los inputs . cuando lo selecciono cambia
+lang: modifica lo que tiene la etiqueta del html lang:en
+*/
+ /*propiedad transition nos permite cambiar la velocidad en 
+la que ocurren las transiciones del hover*/

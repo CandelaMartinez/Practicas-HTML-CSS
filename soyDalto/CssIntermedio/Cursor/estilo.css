@@ -1,0 +1,23 @@
+         * {
+             font-size: 20px;
+             font-family: 'Montserrat', sans-serif;
+             font-weight: 100;
+         }
+         
+         div {
+             height: 300px;
+             width: 300px;
+             background-color: palevioletred;
+             border: 5px solid blue;
+             margin: 50px auto;
+             cursor: pointer;
+         }
+         
+         div:active {
+             cursor: crosshair;
+         }
+         /*cursor cambia el cursor cuando estoy sobre el elemento*/
+         /*active es una pseudoclase, el cambio se realiza cuando selecciono
+         algo o mientras lo tengo seleccionado*/
+         /*ver lista de cursores en la pagina w3school
+         lista de valores cursor css*/

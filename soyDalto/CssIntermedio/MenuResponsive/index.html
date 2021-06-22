@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<!-- agrego img max width y varias cosas en * dentro del normalize -->
+
+<head>
+    <title>Aprendiendo CSS con soy Dalto</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+    <!-- incluimos el normalize de manera local -->
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+
+    <!-- incluimos una tipografia de google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- agrego la etiqueta meta viewport para hacerlo responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- puedo usar los iconos de la web font awesome -->
+    <script src="https://kit.fontawesome.com/09d8ec6924.js" crossorigin="anonymous"></script>
+
+
+</head>
+<!-- puedo ver si es un elemento en linea o en bloque con f12 pasando por encima -->
+
+<body>
+    <header>
+        <nav class="nav">
+            <ul class="nav__ul">
+                <li class="nav__li"><i class="fas fa-home"></i><a href="#">inicio</a></li>
+                <li class="nav__li"><i class="fas fa-users"></i><a href="#">sobre nosotros</a></li>
+                <li class="nav__li"><i class="fas fa-candy-cane"></i><a href="#">productos</a></li>
+                <li class="nav__li"><i class="fas fa-mail-bulk"></i><a href="#">contacto</a></li>
+            </ul>
+            <ul class="nav__responsive-ul">
+                <div class="nav__responsive-button-container">
+                    <div class="nav__responsive-button"><i class="fas fa-bars"></i></div>
+                </div>
+
+                <div class="nav__li-container">
+
+                    <li class="nav__responsive-li"><i class="fas fa-home"></i><a href="#">inicio</a></li>
+                    <li class="nav__responsive-li"><i class="fas fa-users"></i><a href="#">sobre nosotros</a></li>
+                    <li class="nav__responsive-li"><i class="fas fa-candy-cane"></i><a href="#">productos</a></li>
+                    <li class="nav__responsive-li"><i class="fas fa-mail-bulk"></i><a href="#">contacto</a></li>
+
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+</body>
+
+</html>

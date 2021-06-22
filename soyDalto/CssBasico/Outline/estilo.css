@@ -1,0 +1,56 @@
+* {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+
+/*margin auto centra nuestro elementos bloque si los elementos no estan posicionados*/
+
+
+/*box sizing content box es por defecto(va sumando al tamaño lo que le vaya agregando)*/
+
+
+/*en mi normalize lo deje en box sizing border box para que se quede mismo tamaño
+y no se modifique el valor del objeto cuando le sumo bordes, por defecto viene otra opcion
+content box:*/
+
+
+/*el outline no  ocupa un espacio real en el DOM, no afecta a los posiciones ni mueve, solo resalta
+ */
+
+
+/*el borde si ocupa un lugar: si tengo box sizing border box: el borde se encima sobre el objeto asi 
+ no se agranda pero si le quita espacio al objeto original// si tengo content box  el borde 
+ agranda el tamaño sumando al objeto original el borde*/
+
+.caja1 {
+    width: 200px;
+    height: 200px;
+    background: chartreuse;
+    margin: auto;
+    border: 10px solid violet;
+    box-sizing: content-box;
+}
+
+.caja2 {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    margin: auto;
+    outline: 10px solid yellow;
+}
+
+.caja3,
+.caja4,
+.caja5 {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    display: inline-block;
+    margin: -4px;
+}
+
+.caja4 {
+    outline: 5px solid red;
+}

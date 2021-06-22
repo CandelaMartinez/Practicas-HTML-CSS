@@ -1,0 +1,78 @@
+ * {
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 100;
+ }
+ 
+ .texto {
+     padding: 20px;
+ }
+ /* .texto::first-line {
+     color: brown;
+     font-size: 2em;
+     background-color: aquamarine;
+ }
+  */
+ /* .texto::first-letter {
+     color: blue;
+     font-size: 4em;
+     background-color: burlywood;
+ } */
+ 
+ form {
+     margin: 100px auto;
+     display: block;
+     background-color: gray;
+     width: 70%;
+     padding: 100px;
+ }
+ 
+ input {
+     padding: 6px;
+     width: 100%;
+ }
+ 
+ input::placeholder {
+     color: red;
+     font-size: 1.4em;
+     background-color: aquamarine;
+ }
+ 
+ input::selection {
+     color: blueviolet;
+     background-color: chocolate;
+ }
+ 
+ p::selection {
+     color: brown;
+     background-color: aquamarine;
+ }
+ 
+ b {
+     padding: 6px;
+     width: 100%;
+ }
+ 
+ b::before {
+     content: "me suscribi";
+     color: brown;
+     background-color: cadetblue;
+ }
+ 
+ b::after {
+     content: "a todo tendencias";
+     color: chartreuse;
+     background-color: coral;
+ }
+ /*un pseudoelemento es un elemento que no es un elemento, no forma parte del DOM
+pero si podemos ver cambios visuales. se aplican a los elementos*/
+ /*first line: no funciona en elementos inline. se refiere a la primera linea 
+ el cambio que aplique se  hara en el primera linea aunque por responsive vaya cambiando
+ el contenido de la primera linea */
+ /*first letter es lo mismo de firsline solo que para la primera letra*/
+ /*los pseudoelementos que requieren de la etiqueta content no forman parte del DOM*/
+ /*el form se comporta como un div, como bloque*/
+ /*placeholder lo encontramos en el input type text y text area*/
+ /*selection, como se selecciona algo*/
+ /*pseudoelemento aftter/before, son hijos del elemento al que se aplican
+ necesitala propiedad content, son inline*/

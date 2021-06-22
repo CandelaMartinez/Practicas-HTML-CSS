@@ -1,0 +1,65 @@
+    * {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+    }
+    
+    div {
+        width: 120px;
+        height: 120px;
+        background: blue;
+        display: block;
+        margin: -4px;
+        ;
+    }
+    
+    .caja1 {
+        background-color: blueviolet;
+    }
+    
+    .caja2 {
+        background-color: aquamarine;
+        position: relative;
+        top: 60px;
+        left: 20px;
+    }
+    /*si posiciono la caja 3 esta adquiere z index=0 por defecto 
+    y deja de estar abajo de la caja 2 para pasar arriba porque cada caja
+    posicionada estaria en el lugar que le toca estar y como caja3 es mas nueva 
+    que caja2 y las dos tienen zindex=0 entonces va arriba*/
+    /*si quiero poner caja 2 por encima de caja 3 le doy a caja2 z index=1*/
+    
+    .caja3 {
+        background-color: brown;
+        position: relative;
+    }
+    
+    .caja4 {
+        background-color: coral;
+    }
+    /*zindex pone a caja 2 por encima de caja3, aunque el flujo normal sea que caja 3 va arriba de caja 2*/
+    /*aparece cuando posiciono y toma un valor 0*/
+    /*el valor mas alto es el numero mas alto, adelante en el eje z*/
+    /*Z INDEX: funciona cuando las cajas estan posicionadas. eje z es la dimension. el valor mas alto es el que mas cerca nuestro
+estara mas adelante.
+tiene conflicto entre padres e hijos*/
+    /* la unica forma en la que el hijo puede estar debajo del contenedor es poniendo zindex -1*/
+    /*y que no este definido en el contenedor*/
+    
+    .contenedor {
+        width: 300px;
+        height: 300px;
+        background: blue;
+        margin: 60px;
+        position: relative;
+    }
+    
+    .hijo {
+        width: 100px;
+        height: 100px;
+        background: orange;
+        position: relative;
+        top: -20px;
+        left: -20px;
+        z-index: -1;
+    }

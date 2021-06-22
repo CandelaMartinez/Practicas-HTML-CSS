@@ -1,0 +1,38 @@
+    * {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+    }
+    
+    div {
+        width: 120px;
+        height: 120px;
+        background: blue;
+        display: block;
+        margin: -4px;
+        ;
+    }
+    /*cuando posiciono un elemento le doy las propiedades, si no lo posiciono no
+    top: deja espacio arriba, left: deja espacio a la izquierda top y left prioridad*/
+    /*relative: el espacio que era del elemento lo conserva aunque se mueva
+no es ocupado ni desplaza otros elementos
+el lugar de referencia para calcular cuando moverse es desde el espacio que dejo */
+    
+    .caja1 {
+        background-color: blueviolet;
+    }
+    
+    .caja2 {
+        background-color: aquamarine;
+        position: relative;
+        top: 50px;
+        left: 50px;
+    }
+    
+    .caja3 {
+        background-color: brown;
+    }
+    
+    .caja4 {
+        background-color: coral;
+    }

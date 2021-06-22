@@ -1,0 +1,27 @@
+ * {
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 100;
+ }
+ 
+ .cont {
+     margin: auto;
+     margin-top: 50px;
+     width: 50%;
+     padding: 20px;
+     float: left;
+     border: 2px solid blue;
+ }
+ 
+ .cont {
+     width: 50%;
+ }
+ 
+ .cont img {
+     float: left;
+     width: 50%;
+     margin-right: 18px;
+ }
+ /*el texto no esta contenido en ninguna etiqueta
+ la imagen esta antes que el texto con un float right/left
+ el contenedor ocupa el 50%*/

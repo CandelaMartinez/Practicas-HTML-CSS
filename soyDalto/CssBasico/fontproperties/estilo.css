@@ -1,0 +1,15 @@
+.articulo1 {
+    font-size: 15px;
+}
+
+.articulo1__p {
+    font-size: 2em;
+    font-family: 'Ballet', cursive;
+    line-height: 2;
+    font-weight: 700;
+    color: chocolate;
+}
+
+
+/*exportar una tipografia google fonts, le doy a +, copio el archivo del link y lo pego en el head
+ahi mismo te dice como specify en css*/

@@ -1,0 +1,33 @@
+/*MEDIDAS RELATIVAS PARA QUE SE ADAPTE AL DISPOSITIVO. RESPONSIVE design*/
+
+
+/*em: por defecto 1em=16px se puede cambiar*/
+
+
+/*el em se hereda, 1em sera igual al valor que le demos a la caja contenedora*/
+
+
+/* si contacto form tiene un font size de 20 px 1em=20px*/
+
+.contactoform {
+    font-size: 40px;
+}
+
+.contactoform__p-h2 {
+    font-size: 2em;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*  VIEWPORT 100 width ancho total de la pantalla(100vw)height largo total de la pantalla(100vh)*/
+
+.contactoform {
+    font-size: 25px;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
